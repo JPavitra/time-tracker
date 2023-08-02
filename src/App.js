@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { AppProvider } from './contexts/AppContext';
 import ListProjects from './pages/Project/ListProjects';
-import { BrowserRouter as Router, Route, Switch, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import ProjectDetailsPage from './pages/Project/ProjectDetails';
 import CreateProject from './pages/Project/CreateProject';
 import CreateTask from './pages/Tasks/CreateTask';

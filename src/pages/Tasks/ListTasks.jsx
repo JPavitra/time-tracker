@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useAppContext } from '../../contexts/AppContext';
-import { Link } from 'react-router-dom';
 
 const ListTasks = ({ projectId }) => {
     const { state } = useAppContext();
